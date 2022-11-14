@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@keyframes bgimg {
+   0% {background-image: url("/image/abend.jpg"); }
+  20% {background-image: url("/image/abend.jpg"); }
+  25% {background-image: url("/image/backpack.jpg"); }
+  45% {background-image: url("/image/backpack.jpg"); }
+  50% {background-image: url("/image/bare.jpg"); }
+  70% {background-image: url("/image/bare.jpg"); }
+  75% {background-image: url("/image/drop.jpg"); }
+  95% {background-image: url("/image/drop.jpg"); }
+ 100% {background-image: url("/image/abend.jpg"); }
+}
+
+#sec01 {height: 800px;
+background-image: url("/image/abend.jpg"); 
+background-size: cover;
+background-position: 50% 50%;
+position: relative;
+animation:bgimg 20s infinite ease-in;}

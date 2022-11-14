@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+#footerContainer {
+	width: 995px;
+	margin: 0 auto;
+}
+
+.incLogo > img {
+	float: left;
+	max-width: 45px;
+	max-height:45px;
+	width: auto;
+	height: auto;
+	background-size: cover;
+	margin-left: 1em;
+	margin-top: 1em;
+	border-radius: 0.75em;
+	border: 2px;
+	border-style: ridge;
+	border-color: gray;
+}
+
+
+#uhmatFooter {
+	background-color: rgb(194,205,47);
+	border-radius: 1.8em;
+	color: white;
+}
+
+.incText > p {
+	font-size: 22px;
+	position: relative;
+	left: 4px;
+	top: 24px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px gray;
+}
+
+#footerMenu td > a {
+	color: white;
+	text-decoration: none;
+	position: relative;
+	left: 185px;
+	top: -25px;
+}
+
+#footerWhatUhmat {
+	position: relative;
+	left: 100px;
+}
+
+#footerNotice {
+	position: relative;
+	left: 180px;
+}
+
+#footerWhoDeveloper {
+	position: relative;
+	left: 100px;
+	top: 19px;
+}
+
+#footerServiceCenter {
+	position: relative;
+	left: 180px;
+	top: 19px;
+}
+
+#footerPolicy {
+	position: relative;
+	left: 100px;
+	top: 39px;
+}
+
+#footerEvent {
+	position: relative;
+	left: 180px;
+	top: 39px;
+}
+
+
+#contactUs {
+	float: right;
+	position: relative;	
+	right: 200px;
+	bottom: 120px;
+	font-size: 18px;
+	text-shadow: 1px 1px 1px gray;
+}
+
+#call {
+	float: right;
+	position: relative;	
+	right: 38px;
+	bottom: 100px;
+	font-size: 21px;
+	text-shadow: 1px 1px 1px gray;
+}
+
+#faqTime {
+	float: right;
+	position: relative;	
+	left: 240px;
+	bottom: 106px;
+	font-size: 15px;
+	text-shadow: 1px 1px 1px gray;
+}
+
+#time {
+	float: right;
+	position: relative;	
+	left: 230px;
+	bottom: 105px;
+	font-size: 15px;
+	text-shadow: 1px 1px 1px gray;
+}
+
+.sns {
+	float: right;
+	position: relative;
+	bottom: 90px;
+	left: 146px;
+	font-size: 22px;
+}
+
+.sns > a {
+	text-decoration: none;
+	color: white;
+}
+
+.footerAddress {
+	position: relative;
+	font-size: 15px;
+	left: 1em;
+	bottom: -2.4em;
+}
+
+.footerCopyright {
+	position: relative;
+	font-size: 15px;
+	left: 1em;
+	bottom: -1.75em;
+}
+
+.languageTranslate {
+	text-decoration: none;
+	font-size: 18px;
+	position: relative;
+	left: 765px;
+	bottom: 15px;
+}
+
+
+
+
+

@@ -1,0 +1,77 @@
+@charset "EUC-KR";
+
+.mainLogo > a > img {
+	float: left;
+	max-width: 600px;
+	max-height:90px;
+	width: auto;
+	height: auto;
+/* 	background-size: cover; */
+	background-color: transparent;
+	margin-left: 0.75em;
+	z-index: 999999999999999;
+/* 	margin-top: 3px; */
+}
+.loginPart {
+	position: relative;
+	float: right;
+/* 	margin-right: 15em; */
+	margin-top: 2em;
+	margin-right: 1em;
+}
+
+.loginPart > a {
+	text-decoration: none;
+	font-size: 14px;
+	position: relative;
+}
+
+hr {
+	clear: both;
+	border: 0.75em solid #FF1818;
+	
+}
+
+#cntBox {
+	padding: 40px;
+	font-size: 22px;
+}
+#content {
+	font-size: 22px;
+	padding-top: 5px;
+	width: 1200px;
+	height: 30px;
+	outline-style: none;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cntList {
+	padding: 5px 0 5px 10px;
+
+}
+
+#cntList tr td {
+	width: 1100px;
+	border-bottom: 1px solid lightgrey;
+}
+
+
+.btn {
+	font-size: 1em;
+	border: none;
+	border-radius: 10px;
+}
+
+table .btn {
+	float: right;
+	width: 60px;
+	height: 40px;
+}
+.btn:hover {
+	background-color: #a3a1a1;
+    color: #e3dede;
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}

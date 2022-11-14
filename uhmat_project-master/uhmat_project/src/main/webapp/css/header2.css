@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.mainLogo > a > img {
+	float: left;
+	max-width: 300px;
+	max-height:70px;
+	width: auto;
+	height: auto;
+	background-size: cover;
+}
+
+.loginPart {
+	float: right;
+/* 	margin-right: 15em; */
+	margin-top: 1.5em;
+}
+
+.loginPart > a {
+	text-decoration: none;
+	font-size: 14px;
+}
+
+
+
+

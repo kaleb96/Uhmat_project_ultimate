@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+.view {
+		padding: 20px 20px 20px 20px;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		margin: auto;
+		width: 800px;
+		text-align: left;
+	}
+	
+	
+	.subject {
+		font-size: x-large;
+	}
+	
+	.nickname_time_readcount {
+		font-size: small;
+		position: static;
+	}
+	
+	.btn input {
+		border: 2px solid #6C757D;;
+		background-color: #6C757D;
+		color: white;;
+		padding: 5px;
+		border-radius: 5px
+		
+	}
+	
+	.btn input:hover {
+		border: 2px solid #6C757D;
+		background-color: white;
+		color: #6C757D;
+	}
+	
+	.reply {
+		border-bottom: 2px solid #ccc;
+	}
+	
+	.slider{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+/*     position: relative; */
+/*     margin: 0 auto; */
+	}
+	
+	.slider input[type=radio]{
+    	display: none;
+	}
+	
+	ul.imgs{
+    	padding: 0;
+    	margin: 0;
+    	list-style: none;
+	}
+	
+	ul.imgs {
+		position: relative;
+		left: 0px;
+    	margin: 0;
+		
+	}
+	
+	ul.imgs li{
+		position: absolute;
+    	left: -300px;
+/*     	transition-delay: 1s; */
+    	padding: 0;
+    	margin: 0;
+	}
+	
+	.bullets{
+    	position: static;
+	}
+	
+	.bullets{
+    	position: absolute;
+    	left: 50%;
+    	transform: translateX(-300px);
+    	bottom: 450px;
+    	z-index: 2;
+	}
+	
+	.bullets label{
+    	display: inline-block;
+    	border-radius: 50%;
+    	background-color: rgba(0,0,0,0.55);
+    	width: 20px;
+    	height: 20px;
+    	cursor: pointer;
+	}
+	
+	.slider input[type=radio]:nth-child(1):checked~.bullets>label:nth-child(1){
+    background-color: #ccc;
+	}
+	.slider input[type=radio]:nth-child(2):checked~.bullets>label:nth-child(2){
+   	 background-color: #ccc;
+	}
+	.slider input[type=radio]:nth-child(3):checked~.bullets>label:nth-child(3){
+    	background-color: #ccc;
+	}
+	.slider input[type=radio]:nth-child(4):checked~.bullets>label:nth-child(4){
+    	background-color: #ccc;
+	}
+	.slider input[type=radio]:nth-child(5):checked~.bullets>label:nth-child(5){
+    	background-color: #ccc;
+	}
+	
+	.slider input[type=radio]:nth-child(1):checked~ul.imgs>li:nth-child(1){
+    	left: 0;
+    	transition: 0.5s;
+    	z-index:1;
+	}
+	.slider input[type=radio]:nth-child(2):checked~ul.imgs>li:nth-child(2){
+   	 	left: 0;
+    	transition: 0.5s;
+    	z-index:1;
+	}
+	.slider input[type=radio]:nth-child(3):checked~ul.imgs>li:nth-child(3){
+    	left: 0;
+    	transition: 0.5s;
+    	z-index:1;
+	}
+	.slider input[type=radio]:nth-child(4):checked~ul.imgs>li:nth-child(4){
+    	left: 0;
+    	transition: 0.5s;
+    	z-index:1;
+	}
+	.slider input[type=radio]:nth-child(5):checked~ul.imgs>li:nth-child(5){
+    	left: 0;
+    	transition: 0.5s;
+    	z-index:1;
+	}
+	
+	

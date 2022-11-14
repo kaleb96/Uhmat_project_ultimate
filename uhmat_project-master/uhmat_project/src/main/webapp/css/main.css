@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+.mainImage {
+	position:relative;
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+}
+
+@keyframes bgimg {
+	0% {background-image: url("/uhmat_project/image/mainSample3.jpg");}
+	15% {background-image: url("/uhmat_project/image/mainSample3.jpg");}
+	20% {background-image: url("/uhmat_project/image/mainSample4.jpg");}
+	35% {background-image: url("/uhmat_project/image/mainSample4.jpg");}
+	40% {background-image: url("/uhmat_project/image/mainSample5.jpg");}
+	55% {background-image: url("/uhmat_project/image/mainSample5.jpg");}
+	60% {background-image: url("/uhmat_project/image/mainSample6.jpg");}
+	75% {background-image: url("/uhmat_project/image/mainSample6.jpg");}
+	80% {background-image: url("/uhmat_project/image/mainSample.jpg");}
+	95% {background-image: url("/uhmat_project/image/mainSample.jpg");}
+	100% {background-image: url("/uhmat_project/image/mainSample3.jpg");}
+/* 	90% {background-image: url("/uhmat_project/image/mainSample2.jpg");} */
+/* 	95% {background-image: url("/uhmat_project/image/mainSample3.jpg");} */
+/* 	100% {background-image: url("/uhmat_project/image/mainSample3.jpg");} */
+}
+
+#mainSec01 {
+	background-image: url("/uhmat_project/image/mainSample3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	height: 300px;
+	width: 100%;
+	animation: bgimg 10s infinite ease-in;
+}
+
+.mainViewContainer {
+	width: 1300px;
+	margin: 0 auto;
+/* 	margin-bottom: 10px; */
+}
+
+/* .rankContainer { */
+/* 	height: 300px; */
+/* 	width: 1300px; */
+/* 	height: 400px; */
+/* 	border: solid 1px; */
+/* 	margin-top: 80px; */
+/* } */
+
+.imgContainer {
+/* 	height: 300px; */
+	width: 1300px;
+	height: 400px;
+/* 	border: solid 1px; */
+	margin-top: 80px;
+}
+
+.imgContainer img{
+	border-radius: 10%;
+}
+
+.clear{
+	clear: both;
+}
+
+.rankReview {
+/* 	border: solid 1px; */
+	height: 400px;
+	width: 1100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.mainView{
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.mainView{height:250px; width: 250px; overflow:hidden;}
+    .mainView ul{width:calc(100% * 5);display:flex;animation:slide 10s infinite;} /* slide를 8초동안 진행하며 무한반복 함 */
+    .mainView li{width:calc(100% * 5);height:250px;}
+ 
+ 
+/* #mainSec02 { */
+/* 	animation:slide 10s infinite; */
+/* 	background-repeat: no-repeat; */
+/* 	background-size: cover; */
+/* 	background-position: center center; */
+/* 	position: relative; */
+/* 	animation:bgimg 20s infinite; */
+/* 	height: 200px; */
+/* 	width: 100%; */
+/* 	border-top: 10px solid #FFC300;  */
+/* } */
+/* #mainSec02 { */
+/* 	border-top: 10px solid #FFC300; */
+/* } */
+
+
+/* 리뷰(기윤이형) CSS의 일부를 들고옴 */
+.rankReview{
+	clear: both;
+}
+
+#mother{
+	width: 1500px;
+	height: 400px;
+	margin: auto;
+	padding: 100px 0 0 100px;
+}
+
+#list{
+	display: inline;
+}
+ 
+#listView, #append{
+	margin: 80px 0px 50px 40px;
+	padding-left: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius : 10px;
+	width : 400px;
+	height: 550px;
+	float: left;
+}
+
+#subject {
+	font-weight: bold;
+}
+
+p > img {
+	border-radius : 10px;
+	width: 350px; 
+	height: 150px;
+}
+#photo {
+	
+/* 	float: left; */
+	object-fit: contain;
+	
+}
+
+
+#heart {
+	color: red;
+	font-size: 2em;
+}
+#cnt {
+	font-size: 1em;
+	clear: left;
+	padding-right: 10px;
+}
+
+#cnt:hover {
+	cursor: pointer;
+}
+
+
+#highlight:hover {
+	
+    color: blue;
+    cursor: pointer;
+	
+}
+
+.btn {
+	font-size: 1em;
+	border: none;
+	border-radius: 10px;
+}
+
+.btn:hover {
+	background-color: #a3a1a1;
+    color: #e3dede;
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.mainReviewTable {
+/* 	background-color: orange; */
+/* 	margin-left: 43px; */
+/* 	padding-top: 30px; */
+/* 	padding-left: 50px; */
+/* 	padding-right: 50px; */
+	padding-bottom: 30px;	
+	border-spacing: 20px;
+}
+
+
+.moreInformation01 {
+	margin-top: -45px;
+	margin-left: 1210px;
+	font-size: 17px;
+}
+
+.moreInformation02 {
+	margin-top: -45px;
+	margin-left: 1210px;
+	font-size: 17px;
+}
+
+.moreInformation03 {
+	margin-top: -45px;
+	margin-left: 1210px;
+	font-size: 17px;
+}
+
+
+.restaurantCategory {
+	margin-bottom: 50px;
+	background-size: cover;
+	background-image: url("/uhmat_project/image/mainSample3.jpg");
+	animation: bgimg 10s infinite ease-in;
+}

@@ -1,0 +1,108 @@
+@charset "UTF-8";
+	#menuBar button {
+ 		background-color: #6C757D;
+ 		color: white;
+		padding: 5px;
+		border-radius: 5px;
+		font-family: 'Luckiest Guy', cursive;
+		font-size: 16px;
+		
+	}
+	
+	#menuBar button:hover {
+		background-color :white;
+		color: #6C757D;
+	}
+	
+	h2 {
+		text-align: center;
+	}
+
+	.faqList {
+		margin: auto;
+		width: 800px;
+		text-align: center;
+		
+	}
+	
+	.faqList td {
+		border-bottom: 2px solid #ccc;
+		font-family: 'Poor Story', cursive;
+		
+	}
+	
+	#font_front {
+		font-weight: bold;
+	}
+	
+	.faqListTable:hover {
+		background-color: #e9e9e9;
+	}
+	
+	.link a {
+/* 		text-decoration: none; */
+		text-decoration: none; color: black; 
+	}
+
+	.search input { 
+ 		padding: 3px; 
+		border: 2px solid #6C757D;;
+		background-color:white;;
+		color: #6C757D;;
+		border-radius: 5px;
+		font-family: 'Poor Story', cursive;
+/* 		font-weight: bold; */
+	}
+	
+	.searchBtn:hover {
+		background-color: #6C757D;
+		color : white;
+		cursor: pointer;
+	}
+	
+	.before_next {
+		border: 2px solid #6C757D;
+		background-color: #6C757D;
+		border-radius: 2px;
+		color: white;
+		font-family: 'Poor Story', cursive;
+	}
+	
+	.before_next:hover {
+		background-color: white;
+		color : #6C757D;
+		cursor: pointer;
+	}
+	
+	.topButton {
+		background-color: #6C757D;
+		padding: 5px;
+		border-radius: 5px;
+		color: white;
+		font-family: 'Poor Story', cursive;
+	}
+	
+	.topButton:hover {
+		background-color: white;
+		color: #6C757D;
+	}
+	
+	.faqButton {
+		border: 2px solid #6C757D;
+		background-color: #6C757D;
+		color: white;
+		padding: 5px;
+		border-radius: 5px;
+		font-family: 'Poor Story', cursive;
+	}
+	
+	.faqButton:hover {
+		background-color: white;
+		color: #6C757D;
+		cursor: pointer;
+	}
+	
+	td.link:hover{
+		background-color: #808080;
+		cursor: pointer;
+	}

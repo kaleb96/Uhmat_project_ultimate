@@ -1,0 +1,59 @@
+@charset "UTF-8";
+.view {
+		padding: 20px 20px 20px 20px;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		margin: auto;
+		width: 800px;
+		text-align: left;
+	}
+	
+	
+	.subject {
+		font-size: x-large;
+		font-family: 'Poor Story', cursive;
+	}
+	
+	.nickname_time_readcount {
+		font-size: small;
+	}
+	
+	.btn input {
+		border: 2px solid #6C757D;
+		background-color: #6C757D;
+		color: white;;
+		padding: 5px;
+		border-radius: 5px
+	}
+	
+	.btn input:hover {
+		background-color: white;;
+		color: #6C757D;
+		cursor: pointer;
+	}
+	
+	.reply {
+		border-bottom: 2px solid #6C757D;;
+	}
+	
+	.section input {
+		border: 2px solid #6C757D;
+		background-color: #6C757D;
+		color: white;
+		padding: 5px;
+		border-radius: 5px
+	}
+	
+	.section input:hover {
+		background-color: white;;
+		color: #6C757D;
+		cursor: pointer;
+	}
+	
+	.nickname_time_readcount>i{
+ 		position: static;
+	}
+	
+	.material-icons {
+		position: static;
+	}

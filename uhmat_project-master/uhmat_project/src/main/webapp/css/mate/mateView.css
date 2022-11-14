@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.view {
+		padding: 20px 20px 20px 20px;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		margin: auto;
+		width: 800px;
+		text-align: left;
+		font-family: 'Poor Story', cursive;
+	}
+	
+	#subject {
+		font-size: xx-large;
+		padding: 10px 0px 10px 0px;
+		border-bottom: 1px solid #6C757D;
+	}
+	
+	#content {
+		font-size: large;
+		padding: 10px 0px 10px 0px;
+		border-bottom: 2px solid #6C757D;
+	}
+	
+	.time_readcount {
+		font-size: small;
+		position: static;
+	}
+	
+	.btn input {
+		border: 2px solid #6C757D;
+		background-color: #6C757D;
+		color: white;;
+		padding: 5px;
+		border-radius: 5px;
+		font-family: 'Poor Story', cursive;
+	
+	}
+	
+	.btn input:hover {
+		border: 2px solid #6C757D;
+		background-color: white;
+		color: #6C757D;
+	}
+	
+	.reply {
+		border-bottom: 2px solid #6C757D;;
+	}
+	

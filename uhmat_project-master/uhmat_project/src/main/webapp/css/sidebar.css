@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#secSided > iv, ul, li {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;padding:0;margin:0}
+.quickmenu a {text-decoration:none;}
+
+.quickmenu {position:absolute;width:90px;top:50%;margin-top:-30px;right:10px;background:#FFC300;}
+.quickmenu ul {position:relative;float:left;width:100%;display:inline-block;*display:inline;border:1px solid #ddd;}
+.quickmenu ul li {float:left;width:100%;border-bottom:1px solid #ddd;text-align:center;display:inline-block;*display:inline;}
+.quickmenu ul li a {position:relative;float:left;width:100%;height:30px;line-height:30px;text-align:center;color:#FF1818;font-size:9.5pt;font-weight: bolder;}
+.quickmenu ul li a:hover {color:white;}
+.quickmenu ul li:last-child {border-bottom:0;}
+
+.content {position:relative;min-height:1000px;}

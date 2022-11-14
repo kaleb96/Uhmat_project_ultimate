@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+#headerContainer {
+/* 	border: 1px solid #ccc; */
+/* 	width: 995px; */
+/* 	margin: 0 auto; */
+/* 	display: flex; */
+	z-index: 999999;
+}
+
+#uhmatHeader {
+	background-color: transparent;
+	height: 100px;
+/* 	width: 995px; */
+/* 	border: solid 1px; */
+	position: relative;
+	align-items: center; 
+/* 	border-top: 20px solid #FF4A4A; */
+/* 	border-bottom: 20px solid #FF4A4A; */
+	z-index: 999999;	
+}
+
+.mainLogo > a > img {
+	float: left;
+	max-width: 400px;
+	max-height:75px;
+	width: auto;
+	height: auto;
+	background-size: cover;
+	margin-left: 1em;
+	z-index: 999999999999999;
+	margin-top: 7px;
+	background-color: transparent;
+	opacity: 100%
+}
+
+/* .search { */
+/* 	height: 300px; */
+/* 	background-image: url("/uhmat_project/image/mainSample3.jpg"); */
+/* 	position:relative; */
+/* 	border: solid 1px; */
+/* 	background-size: cover; */
+/* 	top: 115px; */
+/* 	background-repeat: no-repeat; */
+/* 	background-position: center center ; */
+/* 	width: 100% */
+/* } */
+
+/* .searchControl { */
+/* 	float: right; */
+/* 	position: relative; */
+/* 	width: 700px; */
+/* 	height: 40px;  */
+/* 	border-radius: 2em; */
+/* 	border-color: white; */
+/* 	align-items: center; */
+/* 	padding-left: 40px; */
+/* 	left: 70%; */
+/* } */
+
+/* .searchContainer { */
+/* 	position: relative; */
+/* 	left: 800px; */
+/* } */
+
+.pullRight {
+	position: relative;
+}
+
+.searchControl {
+	position: relative;
+	width: 800px;
+	height: 45px;
+	padding-left: 45px;
+	left: 260px;
+	top: 27px;
+	border-radius: 5px;
+/* 	border-color: #FF4A4A;  */
+/* 	border-color: #FF4A4A; */
+	border-color: white;
+}
+
+::placeholder {
+	position:relative;
+	left: 0px;
+	font-size: 18px;
+	top: 2px;
+}
+
+i{
+	position: relative;
+	top: 33px;
+	left: 305px;
+	z-index: 999;
+	
+}
+
+.searchContainer .icon {
+	position: albsolute;
+	top: 50%;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+#searchBtn {
+	position: relative;
+/* 	border-radius: 5px; */
+	background-color: #FF4A4A; 
+	color: white;
+	border-color: #FF4A4A;
+	font-size: 16px;
+	width: 60px;
+	height: 43px;
+	top: 27.7px;
+	left: 196px;
+}
+
+
+.loginPart {
+	float: right;
+/* 	margin-right: 15em; */
+	margin-top: 2em;
+	margin-right: 1.5em;
+	background-color: transparent;
+}
+
+.loginBtn {
+	border: 2px solid;
+	border-radius: 3px;
+	display: inline-flex;
+    cursor: pointer;
+    height: 25px;
+    width: auto;
+    text-align: center;
+	align-items: center;	
+	justify-content: center;
+    margin: 0;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+}
+
+.joinBtn {
+	border: 2px solid #FF4A4A;
+	border-radius: 3px;
+	display: inline-flex;
+    cursor: pointer;
+    height: 25px;
+    width: auto;
+    text-align: center;
+	align-items: center;	
+	justify-content: center;
+    margin: 0;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    background-color: #FF4A4A;
+}
+
+.loginPart > a {
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	align-items: center;
+	font-weight: 550;
+}
+
+
+.topMenu {
+	position: absolute;
+	margin-top: 1.85em;
+	background-color: transparent;
+/* 	border: 1px solid; */
+/* 	height: 35px; */
+	width: 500px;
+	left: 530px;
+	top: 55px;
+}
+
+.topMenu > ul {
+	padding: 0;
+	margin: 0;
+}
+
+.topMenu li {
+/* 	font-size: 16px; */
+/* 	font-weight: normal; */
+/* 	width: 420px; */
+/* 	height: 100px; */
+/* 	padding: 5px 0 0 22px; */
+/* 	background-color: rgb(194,205,47); */
+	
+	display: inline;
+	clear:both;
+/* 	border: 1px solid red; */
+/* 	margin-right: 2em; */
+/* 	margin-left: 3.6em; */
+	font-size: 1.25em;	
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown > a {
+/* 	color: #FF4A4A; */
+	color: white;
+	text-decoration: none;
+	vertical-align: middle;
+	padding: 7px;
+	font-weight: bold;
+/* 	text-shadow: 1px 1px 1px gray; */
+	
+	
+}
+
+.dropdownContent {
+	display: none;
+	position: absolute;
+	left: 0px;
+	background-color: #FF4A4A;		
+}
+
+.dropdownContent ul {
+	border: 1px solid #FF4A4A;
+	padding: 0;
+}
+
+.dropdownContent li {
+	display: block;
+	width: 160px;
+	margin: 0;
+	margin-left: 0;
+	padding: 0;
+	left: 0px;
+}
+
+.dropdownContent li > a {
+	text-decoration: none;
+}
+
+.dropdownContent ul li > a {
+	color: white;
+	font-size: 18px;
+	vertical-align: middle;
+	margin-left: 0.15em;
+}
+
+
+
+.dropdown:hover .dropdownContent {
+	display:block;
+	z-index: 9999999 !important;
+}
+
+.dropdownContent ul li:hover {
+	background-color: orange;
+	cursor: pointer;
+}
+
+
+
+
+
+

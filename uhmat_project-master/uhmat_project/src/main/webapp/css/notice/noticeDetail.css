@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.view {
+		padding: 20px 20px 20px 20px;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		margin: auto;
+		width: 800px;
+		text-align: left;
+	}
+	
+	
+	.subject {
+		font-size: x-large;
+	}
+	
+	.nickname_time_readcount {
+		font-size: small;
+	}
+	
+	.btn input {
+		border: 2px solid #FF1818;
+		background-color: white;
+		color: #FF1818;
+		padding: 5px;
+		border-radius: 5px
+	}
+	
+	.btn input:hover {
+		background-color: #FF1818;
+		color: white;
+	}
+	
+	.reply {
+		border-bottom: 2px solid #FF1818;
+	}
+	
+	.section input {
+		border: 2px solid #FF1818;
+		background-color: white;
+		color: #FF1818;
+		padding: 5px;
+		border-radius: 5px
+	}
+	
+	.section input:hover {
+		background-color: #FF1818;
+		color: white;
+	}
+	.nickname_time_readcount>i{
+ 		position: static;
+	}
+	
+	.material-icons {
+		position: static;
+	}
